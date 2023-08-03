@@ -1,0 +1,9 @@
+<div class="input">
+    <mat-form-field appearance="outline">
+        <input type="text" [(ngModel)]="comment" placeholder="Enter your comment"  required>
+        <button (click)="analyze()">Analyze</button>
+    </mat-form-field>
+</div>
+<div class="output">
+    <p style="color:aliceblue">{{this.result}}</p>
+</div>

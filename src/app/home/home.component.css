@@ -1,0 +1,23 @@
+.input{
+    display : flex;
+    justify-content: center;
+    margin-top : 15%;
+}
+.input input,button{
+    margin-bottom : 10px;
+    width : 180px;
+}
+.input input{
+    height : 40px;
+    font-size: medium;
+    border-color: rgb(160, 95, 98);
+}
+.input button{
+    height : 30px;
+    background-color: cadetblue;
+}
+.output{
+    color : aliceblue;
+    text-align: center;
+    font-size :x-large;
+}
